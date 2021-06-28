@@ -1,2 +1,2 @@
 def greet(who: str) -> str:
-    return f"Hello {who}"
+    return f"Hello {who}".upper()
