@@ -3,7 +3,7 @@ load("@rules_python//python:defs.bzl", "py_library", "py_test")
 py_library(
     name = "libgreeting",
     srcs = ["greeting.py"],
-    visibility = ["//python:__pkg__"],
+    visibility = ["//visibility:public"],
 )
 
 py_test(
