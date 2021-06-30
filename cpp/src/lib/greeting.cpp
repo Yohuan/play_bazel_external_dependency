@@ -9,5 +9,5 @@ std::string Greet(const std::string &who)
   {
     c = toupper(c);
   }
-  return message;
+  return message + "!!!";
 }
